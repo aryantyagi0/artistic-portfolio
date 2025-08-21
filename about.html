@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Art Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .about-section {
+      background: linear-gradient(to right, #f8f9fa, #e9ecef);
+      border-radius: 15px;
+      padding: 40px;
+    }
+    .card-custom {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card-custom:hover {
+      transform: translateY(-5px);
+    }
+    .section-title {
+      font-weight: bold;
+      color: #343a40;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .lead-text {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">🎨 My Art</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="container py-5 about-section">
+    <h1 class="section-title display-4">About Me</h1>
+    <p class="lead-text">
+      Hello! I’m an artist passionate about capturing emotions, nature, and abstract ideas through my work. 
+      My journey has been shaped by exhibitions, collections, and recognitions over the years. 
+      I believe art is a universal language, and through my creations, I aim to evoke feelings, inspire thought, 
+      and create a connection with the audience.
+    </p>
+
+    <div class="row g-4">
+      <!-- Education Card -->
+      <div class="col-md-6">
+        <div class="card card-custom p-4 h-100">
+          <h3 class="text-primary mb-3">Education</h3>
+          <ul>
+            <li>🎓 BFA in Fine Arts, SRM University</li>
+            <li>🎨 MFA in Painting, Delhi University</li>
+          </ul>
+          <p class="text-muted">My education helped me develop a solid foundation in artistic techniques and theories, enabling me to explore and innovate freely.</p>
+        </div>
+      </div>
+
+      <!-- Awards Card -->
+      <div class="col-md-6">
+        <div class="card card-custom p-4 h-100">
+          <h3 class="text-success mb-3">Awards & Recognition</h3>
+          <ul>
+            <li>🏆 National Art Award, 2023</li>
+            <li>🌟 Best Contemporary Artist, 2022</li>
+          </ul>
+          <p class="text-muted">These recognitions motivate me to push boundaries and explore new dimensions in my art.</p>
+        </div>
+      </div>
+
+      <!-- Exhibitions Card -->
+      <div class="col-md-6">
+        <div class="card card-custom p-4 h-100">
+          <h3 class="text-warning mb-3">Exhibitions</h3>
+          <ul>
+            <li>🏛 Modern Art Gallery, Mumbai (2024)</li>
+            <li>🌐 International Expo, London (2023)</li>
+          </ul>
+          <p class="text-muted">Showcasing my work internationally has allowed me to connect with art lovers from different cultures and perspectives.</p>
+        </div>
+      </div>
+
+      <!-- Collections Card -->
+      <div class="col-md-6">
+        <div class="card card-custom p-4 h-100">
+          <h3 class="text-danger mb-3">Collections</h3>
+          <p class="text-muted">
+            My works are part of private collections in India, UK, and the US. Each piece reflects a personal story and resonates with the emotions of the viewers.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <p class="lead-text fst-italic mt-4">
+      Art is not just a profession for me—it is a journey of self-expression, creativity, and connection. Every brushstroke tells a story, and every color evokes a feeling.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p>© 2025 My Art Portfolio | <a href="index.html" class="text-light">Home</a> | <a href="contact.html" class="text-light">Contact</a></p>
+  </footer>
+</body>
+</html>
